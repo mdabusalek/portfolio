@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+           <!-- META TAG -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+           
+            <!-- ALL CSS FILE -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/queris.css">
+          
+            <!-- G00GLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+           
+            <!-- SITE TITLE -->
+    <title>Lapkin Portfolio</title>
+</head>
+<body>
+           <!-- START HEADER SECTION -->
+    <div id="header">
+        <nav uk-sticky="show-on-up: true; animation: uk-animation-slide-top; bottom: #bottom">
+            <div class="row">
+                <div class="logo">
+                    <img src="resources/img/logo.png" alt="Paul Lapkink">
+                </div>
+                <div class="menu-icon" onclick="openMenu()">
+                    <ion-icon name="menu-outline" onclick="openMenu()"></ion-icon>
+                </div>
+            </div>
+            <div class="menu-container" id="navbar" onclick="closeMenu()">
+                <div class="close-btn">
+                    <ion-icon name="close-outline" onclick="closeMenu()"></ion-icon>
+                </div>
+                <div class="menu-item">
+                    <ul>
+                        <li><a onclick="closeMenu()" href="#header">Home</a></li>
+                        <li><a onclick="closeMenu()" href="#about">About</a></li>
+                        <li><a onclick="closeMenu()" href="#process">Process</a></li>
+                        <li><a onclick="closeMenu()" href="#experience">Experience</a></li>
+                        <li><a onclick="closeMenu()" href="#portfolio">Protfolio</a></li>
+                        <li><a onclick="closeMenu()" href="#testimonial">Testimonial</a></li>
+                        <li><a onclick="closeMenu()" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="header-text-box">
+            <h1 uk-scrollspy="cls: uk-animation-fade; repeat: true">Paul Lapkin</h1> <br>
+            <span uk-scrollspy="cls: uk-animation-fade; repeat: true">#User Experience  #Music  #Creative Direction</span><br>
+            <a href="#about"><ion-icon name="download-outline"></ion-icon></a>
+            </div>
+        </div>
+    </div>
+            <!-- END HEADER SECTION -->
+            
+    
+            <!--START ABOUT SECTION -->
+    <section id="about">
+        <div class="row">
+            <div class="about-grid-container">
+                <div class="about-grid-items" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+                    <div class="paul">
+                        <img src="resources/img/man.png" alt="Paul Lapkin">
+                    </div>
+                </div>
+                <div class="about-grid-items" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+                    <h4>Hi, i’m Paul Lapkin, Experience Crafter from Canada.</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequat.</p>
+                    <p> Duis autem vel eum iriure dolorin hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore.</p>
+                    <div class="mybtn"><a href="#">Hire Me</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+            <!--END ABOUT SECTION -->
+            
+            
+            <!--START PROCESS SECTION -->
+    <section id="process">
+        <div class="row">
+            <h2 class="paul-title">My Working Process</h2>
+            <p class="paul-description">Hi, i’m Paul Lapkin, Experience Crafter from Canada.</p>
+            <div class="process-grid-container">
+                <div class="process-grid-items" uk-scrollspy="cls: uk-animation-slide-top-small; repeat: true">
+                    <span><ion-icon name="desktop-outline"></ion-icon></span>
+                    <h3>Design</h3>
+                </div>
+                <div class="process-grid-items" uk-scrollspy="cls: uk-animation-slide-top-small; repeat: true">
+                    <span><ion-icon name="code-working-outline"></ion-icon></span>
+                    <h3>Developent</h3>
+                </div>
+                <div class="process-grid-items" uk-scrollspy="cls: uk-animation-slide-top-small; repeat: true">
+                    <span><ion-icon name="checkbox-outline"></ion-icon></span>
+                    <h3>Testing</h3>
+                </div>
+                <div class="process-grid-items" uk-scrollspy="cls: uk-animation-slide-top-small; repeat: true">
+                    <span><ion-icon name="airplane-outline"></ion-icon></span>
+                    <h3>Launch</h3>
+                </div>
+            </div>
+        </div>
+    </section>    
+           
+    
+            <!--END PROCESS SECTION -->
+            
+            
+            
+            <!--START EXPERIENCE SECTION -->
+    <section id="experience">
+        <div class="row">
+            <div class="experience-grid-container">
+                <div class="experience-grid-items" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+                    <h3>work experience</h3>
+                    <h4>Mad Max Design</h4>
+                    <span>OCT 2013 - june 2014</span>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    <hr>
+                    <h4>Crazy Design</h4>
+                    <span>OCT 2013 - june 2014</span>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                </div> 
+                <div class="experience-grid-items" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+                    <h3>education</h3>
+                    <h4>Maddison University</h4>
+                    <span>OCT 2013 - june 2014</span>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    <hr>
+                    <h4>Max Design & Art Institute</h4>
+                    <span>OCT 2013 - june 2014</span>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+            
+            
+            <!--END EXPERIENCE SECTION -->
+            
+            
+            <!--START PORTFOLIO SECTION -->
+    <section id="portfolio">
+        <div class="row">
+           <h2 class="paul-title">My Letest Work</h2>
+            <p class="paul-description">Hi, i’m Paul Lapkin, Experience Crafter from Canada.</p>
+            <div class="btn-group">
+                <button type="button" data-filter="all">All</button>
+                <button type="button" data-filter=".web">Web Design</button>
+                <button type="button" data-filter=".dev">Web Develop</button>
+                <button type="button" data-filter=".java">Web jQuery</button>
+            </div>
+            <div class="portfolio-grid-container" uk-lightbox="animation: slide">
+                <div class="portfolio-grid-items mix java">
+                    <a href="resources/img/m1.jpg">
+                        <img src="resources/img/m1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="portfolio-grid-items mix web">
+                    <a href="resources/img/m2.jpg">
+                        <img src="resources/img/m2.jpg" alt="">
+                    </a>
+                </div>
+                <div class="portfolio-grid-items mix dev">
+                    <a href="resources/img/m3.jpg">
+                        <img src="resources/img/m3.jpg" alt="">
+                    </a>
+                </div>
+                <div class="portfolio-grid-items mix java">
+                    <a href="resources/img/m4.jpg">
+                        <img src="resources/img/m4.jpg" alt="">
+                    </a>
+                </div>
+                <div class="portfolio-grid-items mix dev">
+                    <a href="resources/img/m5.jpg">
+                        <img src="resources/img/m5.jpg" alt="">
+                    </a>
+                </div>
+                <div class="portfolio-grid-items mix web">
+                    <a href="resources/img/m6.jpg">
+                        <img src="resources/img/m6.jpg" alt="">
+                    </a>
+                </div>
+                <div class="portfolio-grid-items mix web">
+                    <a href="resources/img/m7.jpg">
+                        <img src="resources/img/m7.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>        
+    
+            <!--END PORTFOLIO SECTION -->
+            
+            
+            
+            <!--START TESTIMONIAL SECTION -->
+    <section id="testimonial">
+        <div class="row">
+            <div class="testimonial-grid-container">
+                <div class="testimonial-grid-items">
+                    <div class="testimonial-img">
+                        <img src="resources/img/thoght.png" alt="">
+                    </div>
+                    <div class="testimonial-description">
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequat.</p>
+                    </div>
+                    <div class="testimonial-signature">
+                        <img src="resources/img/signature.png" alt="">
+                    </div>
+                    <div class="testimonial-head">
+                        <h4>Deniel Croft</h4>
+                    </div>
+                    <div class="testimonial-span">
+                        <span>Creative Designer, Levy</span>
+                    </div>
+                </div>
+                <div class="testimonial-grid-items">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+            <!--END TESTIMONIAL SECTION -->
+            
+            
+            
+            
+            
+            <!--START CONTACT SECTION -->
+    <section id="contact">
+        <div class="row">
+            <div class="contact-grid-container">
+                <div class="contact-grid-items">
+                   <h3>Leave a message</h3>
+                    <form action="">
+                        <div class="form-group">
+                            <input type="text" placeholder="Name" >
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+                        </div>
+                        <br>
+                        <div class="mybtn btn2">
+                            <a href="#">Hire Me</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="contact-grid-items nested-contact-grid-container">
+                    <div class="nested-contact-grid-items">
+                        <h3>Address</h3>
+                        <p>Gulshan Sales Office. SA Tower (Level-5), Plot#1, Road#134, Block SE(A), Gulshan-1, Dhaka 1212.</p>
+                    </div>
+                    <div class="nested-contact-grid-items">
+                        <h3>Phone</h3>
+                        <p>
+                            +880 174 037 6995
+                            <br>
+                            +880 191 448 6969
+                        </p>
+                    </div>
+                    <div class="nested-contact-grid-items">
+                        <h3>Web</h3>
+                        <p>
+                            Mail: quicksayed@gmail.com
+                            <br>
+                            Website: dribbble.com/alisayed
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+            <!--END CONTACT SECTION -->
+            
+            
+            <!--END CONTACT SECTION -->
+    <section id="footer">
+        <div class="row">
+            <div class="social-icon">
+                <ul>
+                    <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-dribbble"></ion-icon></a></li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <p>Copyright: Ali Sayed, All Rights Reserved.</p>
+            </div>
+            <a class="gototop" href="#" uk-totop uk-scroll></a>
+        </div>
+    </section>
+            <!--END CONTACT SECTION -->
+    
+    
+    
+    
+    
+    
+    
+            <!-- ALL JS FILE -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit-icons.min.js"></script>
+    <script src="vendors/js/particles.min.js"></script>
+    <script src="vendors/js/app.js"></script>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <script src="vendors/js/mixitup.min.js"></script>
+    <script src="resources/js/main.js"></script>
+</body>
+</html>
